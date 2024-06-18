@@ -1,0 +1,123 @@
+18/6/2024
+
+*React: -it is javascript library.
+        -it is use to create rich UI.
+        -it create single page application(SPA).
+        -it not framework.
+        -latest version of react is 18 
+
+ -react work on component basis 
+ -in react root component name is app.js 
+        
+Technology you must know 
+-Html,css,js(basic js,ES5 and ES6 , oops)
+
+-s/w pre-requisit.
+-nodejs 
+-npm 
+-editor 
+
+*There are two way to react project 
+1.By npx: in this case no need to install configuration 
+ step1: npx create-react-app appname
+ step2: cd appname
+ step3:npm start  
+
+2.By npm:in this case w have to install configuration file
+ step1:npm install create-react-app
+ step2:create-react-app appname
+ step3:cd appname
+ step4:npm start  
+
+*what is component
+-it is partial pert of react project.
+-it can be any part of project.
+-which we can resuse.
+
+*In React we have two types of component.
+1.function component: when your main goal is create UI 
+2.class component: when you need to deal with essential data and need to write complex logic in that case we use it.
+
+*How to display individual component output.
+ 
+*props(property): 
+-it is parameter or functional parameter which is use to pass data inside component.
+-props return data in object formate.
+-in function component we can access props like props.propsName.
+-in class component we can access props like this.props.propsName.
+
+*JSX(javascript XML):
+-it makes react code easy and allows us to write html code in react component.
+-in jsx we have to write one parent element to wrap another child element, parent element can be any block element.
+
+*State in class component 
+-state in class component it is use to handle essential data.
+-in class component we write state in constructor.
+-state return us object type of data.
+-we can access data outside state by writting this.state.propertyname 
+
+*setState(): it allows us to manipulate state property value.
+
+*destrucring of state 
+*destrucring of props 
+
+Task
+create a class component with name MyDetails containg props fname,lname,email,contact as well as state with property gender,maritial status,address and display is data on browser.
+
+* method and event.
+-use define methode 
+-events : onClick 
+          onMouseOver 
+
+create class SetStateComp display its output.
+
+Task: write methode to decrement counter value by one
+
+Rendering: display component output or view on browser.
+*conditional Rendering: display component output on the basis of condition.
+1.if else: if condition is true then if block will render otherwise else block render
+2.element as variable: in this we store data in variable and return that variable as element
+3.use of ternary operator: it is an shorthand of if else.
+                          syntax:  condition ? trupart : falsepart;
+4.use of short-circuit: in this if condition is true then and only then it will return output.
+                        -it is denoted by &&. 
+
+ConditionRenComp class component
+
+*How to display images in react component
+*how to create constant file to shae data with component. 
+
+Task1: toggle image when we click on single button 
+Task1: change multiple image when we click on multiple button button 
+
+*component interaction: 
+-fetching data from parent component to child component.
+-how to make parent child relation between two component.
+-to make parent child relation in between component for that we import child component in parent 
+and write child component name as tag in parent component.
+
+*send state data as props to child component
+*send method  as props to child component
+
+*We saw snipet for creating component
+rce : for creating class component
+rconst:create constructor with super method and state 
+
+rfce : it will generate normal function component
+rafce : it will generate arrow function component
+
+
+Class ParentComp 
+function ChildComp
+
+
+
+
+
+
+
+
+
+
+
+
