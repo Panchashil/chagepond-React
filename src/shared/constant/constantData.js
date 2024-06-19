@@ -10,9 +10,10 @@ import samosa3 from '../images/samosa-3.jfif';
 import nature from '../images/naturegif.gif';
 import whatsapp from '../images/whatsapp.png';
 import vdo from "../images/sample-vdo.mp4";
+import pagenotfound from '../images/pagenotfound.gif'
 
 const staticData = {
-    ado,bigImg,dosa,facebook,insta,jalebi,samosa,samosa1,samosa3,nature,whatsapp,vdo
+   pagenotfound, ado,bigImg,dosa,facebook,insta,jalebi,samosa,samosa1,samosa3,nature,whatsapp,vdo
 }
 
 export default staticData;

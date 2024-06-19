@@ -4,6 +4,7 @@ import dosa from '../shared/images/dosa.jfif';
 
 import staticData from '../shared/constant/constantData';
 
+
 class MyImageComp extends Component {
     constructor(props) {
         super(props)
@@ -15,7 +16,7 @@ class MyImageComp extends Component {
     
     render() {
         return (
-            <div>
+            <React.Fragment>
                 <h2>This is MyImages Component</h2>
                 <img src={samosa} alt='samosa' height="200px" width="200px"/> &nbsp;
                 <img src={dosa} alt='samosa' height="200px" width="200px"/>
@@ -27,7 +28,7 @@ class MyImageComp extends Component {
                 <video src={staticData.vdo} controls></video>
                 <audio src={staticData.ado} controls></audio>
 
-            </div>
+            </React.Fragment>
         )
     }
 }

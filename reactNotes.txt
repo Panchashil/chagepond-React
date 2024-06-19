@@ -109,11 +109,78 @@ rafce : it will generate arrow function component
 
 Class ParentComp 
 function ChildComp
+=============================================
+19/6/24
 
 
+Fragment or React.Fragment : 
+-it is an alternative for jsx, which removes unwanted element from react project.
+-to use we have to import it from react library.
+
+*How to use css in react 
+1. internal css: we can write css inside component.
+2. external css : in this we create a seperate css file and that css file we import in component
+3. module css : -if you have to write css property for a seperate component for that we use it.
+                - we can create module css file by fileName.module.css 
+                -then we have to import it in component.
+
+*HOC(Heigher Ordr Component) :
+-when we have comman bussines logic and want to share with multiple component for that we use it.
+-in hoc we can share data from function component to other component.
+-in hoc we pass other function as parameter.
 
 
+*How to use Bootstrap in React 
+-itm provide inbult classes to make webapp attractive responce
+step1:npm i bootstrap
+step2: import it in index.js 
+import 'bootstrap/dist/css/bootstrap.min.css';
+step3: use its classes in react component
 
+
+*How to use Material UI(MUI)
+-it ia an external library which provide inbuilt component to react.
+-it makes react app attractive,responsive 
+-its official website is mui.com 
+
+command to install Material UI 
+npm install @mui/material @emotion/react @emotion/styled
+
+command to install material icon 
+npm install @mui/icons-material
+
+*How to use Carousel from MUI 
+
+npm i react-swipeable-views --legacy-peer-deps 
+
+*Routing In React.
+-navigation of component.
+-display component output by writting it pathname in browser url 
+-to perform routing we use "react-router-dom" library.
+-how to install react-router-dom
+npm i react-router-dom
+or 
+npm i react-router-dom --legacy-peer-deps
+
+types of routing 
+
+1. naming routing : display component output b y writting its path name in browser url
+2. default routing: display component output without writting path in browser url.
+3. parameterize routing : passing parameter with routing path and display component output.
+4.child routing: defining one routing inside another routing. 
+                in this to display child component output in parent component we import <Outlet /> 
+                directory in parent component and write in render method as tag.
+
+5.whild-card routing: display component output when user enter wrong path name in browser url.
+                  -it is denoted by *.
+                  -it must be last routing , it below routing will never work.
+
+*we saw how to design layout 
+
+Task: create layout as shown in image by using Material UI in react 
+   
+
+ 
 
 
 

@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 import ChildComp from './ChildComp'
 
 export class ParentComp extends Component {
@@ -16,7 +16,7 @@ export class ParentComp extends Component {
     }
     render() {
         return (
-            <div>
+            <Fragment>
                 <h2>This is Parent components</h2>
                 <p>Employee Name is:<strong>{this.state.empName}</strong></p>
                 <p>Employee Salary is:<strong>{this.state.empSalary}</strong></p>
@@ -24,7 +24,7 @@ export class ParentComp extends Component {
 
                 <hr />
                 <ChildComp name={this.state.empName} salary={this.state.empSalary} changeData={this.changeData}></ChildComp>
-            </div>
+            </Fragment>
         )
     }
 }
