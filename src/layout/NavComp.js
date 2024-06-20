@@ -9,7 +9,8 @@ const NavComp = () => {
           <Link to="myimages" className='btn btn-primary btn-sm'>MyImages</Link>{" "}
           <Link to="parent" className='btn btn-primary btn-sm'>Parent</Link>{" "}
           <Link to="reacthook" className='btn btn-primary btn-sm'>Hooks</Link>{" "}
-          {/* <Link to="myslider" className='btn btn-primary btn-sm'>MySlider</Link>{" "} */}
+          <Link to="virtualdom" className='btn btn-primary btn-sm'>VirtualDOM</Link>{" "}
+          <Link to="formval" className='btn btn-primary btn-sm'>Form</Link>{" "}
         </div>
     )
 }

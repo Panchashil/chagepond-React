@@ -178,9 +178,57 @@ types of routing
 *we saw how to design layout 
 
 Task: create layout as shown in image by using Material UI in react 
-   
-
+===================================================================================   
+20/6/24
  
+Virtual DOM: in react instead of manipulating browser dom directly react create virtual DOm in its memory, where it does all necessary changes in it, and virtual dom changes thats needs to be change.
+
+*Hooks In React:
+-it allows us to use class component feature in function component.
+-hooks introduce in react version 16
+
+Rules to use Hooks 
+-Hooks work only with function component.
+-Hooks always use at top level component.
+-Hooks can not be render conditinaly. 
+
+*List of Hooks 
+1.useState Hook : it allows us to use State in function component.
+                 -it gives two values 1.current-state,2.function-to-update-state 
+                 -before use first we have to import from react library.
+
+2.useEffect Hook : 
+  -it is use to perform sideeffect operation in function component after render of it.
+  -sideeffect means what , fetching data from server,use of timer
+  -it execute once after component render.
+  -it takes two parameter in it, 1.callback function, 2. dependency
+  -first we have to import it from react library before use of it. 
+  syntax:   useEffect(()=>{},dependency);
+
+ case1: when no dependency value pass , it will execute after every render
+      syntax:   useEffect(()=>{});
+
+case:2: when we want to execute useEffect only once render 
+       -in this we pass dependency value as blanck array.
+       syntax:   useEffect(()=>{},[]);
+
+case3: when we want to execute useEffect hook as our choice.
+      -to chive we have state or props as dependency value.
+      -as state or prop value change then useEffect will execute.
+      syntax:   useEffect(()=>{},[state or props]);
+
+
+3.useContext Hook
+4.useRef Hook 
+5.UseReducer Hook 
+6.useMemo Hook 
+7.useCallback Hook. 
+8.custome Hook.
+
+
+FormValComp   (fc)
+
+
 
 
 

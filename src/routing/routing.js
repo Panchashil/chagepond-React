@@ -7,6 +7,8 @@ import ReactHookComp from '../Hooks/ReactHooksComp';
 import UseteStateHookComp from '../Hooks/UseStateHookComp';
 import UseEffectHooksComp from "../Hooks/UseEffectHooksComp";
 import MainDashboardComp from '../layout/MainDashboardComp';
+import VirtualDomComp from "../components/VirtualDomComp";
+import FormValComp from "../components/FormValComp";
 
 const router = createBrowserRouter([
 
@@ -19,7 +21,8 @@ const router = createBrowserRouter([
     // parameterize routing 
     {path:"parent/:id",element:<ParentComp />},
     {path:"parent",element:<ParentComp />},
-
+    {path:"virtualdom",element:<VirtualDomComp />},
+    {path:"formval",element:<FormValComp />},
     // child routing 
     {path:"reacthook",element:<ReactHookComp />,children:[
         {path:"usestate",element:<UseteStateHookComp />},
