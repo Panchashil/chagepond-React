@@ -1,0 +1,63 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "pname": "Laptop",
+      "price": 55000,
+      "company": "Hp"
+    },
+    {
+      "id": 2,
+      "pname": "Keyboard",
+      "price": 500,
+      "company": "Intel"
+    },
+    {
+      "id": 3,
+      "pname": "Mouse",
+      "price": 300,
+      "company": "Iball"
+    },
+    {
+      "id": 4,
+      "pname": "Adaptor",
+      "price": 3000,
+      "company": "Dell"
+    },
+    {
+      "id": 5,
+      "pname": "USB",
+      "price": 1000,
+      "company": "Sony"
+    },
+    {
+      "id": 6,
+      "pname": "Card Reader",
+      "price": 500,
+      "company": "Toshiba"
+    },
+    {
+      "pname": "Pendrive",
+      "price": "2050",
+      "company": "toshiba",
+      "id": 7
+    },
+    {
+      "pname": "Mobile",
+      "price": "30000",
+      "company": "oppo",
+      "id": 8
+    },
+    {
+      "pname": "Tablet",
+      "price": "35000",
+      "company": "Apple",
+      "id": 9
+    }
+  ],
+  "users": [
+    {"id":1,"userId":"admin@gmail.com","userPass":"admin@123"},
+    {"id":2,"userId":"hero@gmail.com","userPass":"hero@123"},
+    {"id":3,"userId":"king@gmail.com","userPass":"king@123"}
+  ]
+}

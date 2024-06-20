@@ -1,4 +1,4 @@
-import { Flag, Password } from '@mui/icons-material'
+
 import React, { useState } from 'react'
 
 const FormValComp = () => {
@@ -13,7 +13,7 @@ const FormValComp = () => {
     //    console.log(event.target.name);
     //    console.log(event.target.value);
     const {type,name,value} = event.target;
-          setUser({[name]:value})
+          setUser({...user,[name]:value})
        }
      
      const checkData = (event)=>{
@@ -26,7 +26,11 @@ const FormValComp = () => {
           window.alert("User Name must contain only character min-3 and Max-20");
           return false;
         }
-        
+        if(user.term===false){
+            window.alert("please accept term and condition");
+            return false;
+        }
+        window.alert(JSON.stringify(user));
      }  
     return (
         <div>
@@ -34,10 +38,11 @@ const FormValComp = () => {
             <form onSubmit={checkData}>
                 <label>Enter User Name</label>
                 <input type='text' name='userName' onChange={inputChangeHandler} value={user.userName} /> <br /> 
-                <label>Enter User Password</label>
-                <input type='text' name='userPassword' onChange={inputChangeHandler} value={user.userPassword} /> <br /> 
+                {/* <label>Enter User Password</label>
+                <input type='text' name='userPassword' onChange={inputChangeHandler} value={user.userPassword} /> <br />  */}
+                 <label>
                 <input type='checkbox' name='term' onChange={inputChangeHandler} value={user.term} />
-                <label>I Accept Term and Condition</label><br />
+                   I Accept Term and Condition</label><br />
                 <button type='submit' className='btn btn-primary mt-2'>Submit</button>
             </form>
         </div>

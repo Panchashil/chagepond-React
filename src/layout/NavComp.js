@@ -11,6 +11,7 @@ const NavComp = () => {
           <Link to="reacthook" className='btn btn-primary btn-sm'>Hooks</Link>{" "}
           <Link to="virtualdom" className='btn btn-primary btn-sm'>VirtualDOM</Link>{" "}
           <Link to="formval" className='btn btn-primary btn-sm'>Form</Link>{" "}
+          <Link to="productdash" className='btn btn-outline-warning btn-sm'>CRUD</Link>{" "}
         </div>
     )
 }

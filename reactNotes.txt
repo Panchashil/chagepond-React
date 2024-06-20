@@ -225,9 +225,25 @@ case3: when we want to execute useEffect hook as our choice.
 7.useCallback Hook. 
 8.custome Hook.
 
+*Form validation
+*REST Fake API 
+*creaste json file with data and upload it on json server 
+cd src/shared/database (press enter)
+json-server --watch -p 8888 db.json 
 
-FormValComp   (fc)
+install axios library : it will allows to make reqiest to server from react library.
+npm i axios 
 
+CRUD folder 
+ -ProductDashboardComp 
+ -ProductAddComp
+ -ProductUpdateComp
+
+*Login module 
+
+*use of MUI Template 
+
+Task: Create SignOut component and perform SignOut functionality
 
 
 
