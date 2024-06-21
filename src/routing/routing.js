@@ -13,6 +13,7 @@ import ProductDashboardComp from "../CRUD/ProductDashboardComp";
 import ProductAddComp from "../CRUD/ProductAddComp";
 import ProductUpdateComp from "../CRUD/ProductUpdateComp";
 import LoginComp from "../layout/LoginComp";
+import ProtectedRouting from "./ProtectedRouting";
 
 const router = createBrowserRouter([
   { path: "", element: <LoginComp /> },
@@ -20,7 +21,8 @@ const router = createBrowserRouter([
   
   {
     path: "maindashboard",
-    element: <MainDashboardComp />,
+    // element: <MainDashboardComp />,
+    element:<ProtectedRouting Component={MainDashboardComp} />,
     children: [
       // default routing
       { path: "", element: <MySliderComp /> },

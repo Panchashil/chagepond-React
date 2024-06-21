@@ -244,6 +244,65 @@ CRUD folder
 *use of MUI Template 
 
 Task: Create SignOut component and perform SignOut functionality
+=====================================================================
+21/6/24
+
+*Here we cover webstorge 
+localStorage.setItem("user1","admin") // it is use to store user data on local storage
+localStorage.getItem("user2")       // it is use to get user data from localStorage
+localStorage.removeItem("user1")   // it it remove single data from localStorage
+localStorage.clear()              // it is use to remove all data from local storage.
+
+
+!sessionStorage.getItem("user")  // if user is available in sessionStorage
+false
+!sessionStorage.removeItem("user") // if user is not available in sessionStorage
+true
+
+*Cover Protected Routing
+ProtectedRouting     
+
+*Logout module 
+
+Redux: 
+-it is predictable state container for javascript app
+ or 
+- it is use to store tract and manage state from javascript app. 
+
+ -redux work on three core principle
+-Store(Bank): it is use to store state(data) in it.
+-Action(Widraw,Deposit,Tranfer): it is description of operation which we are going to perform.
+                                -it is plain javascript object ,having type property containing string constant value in it.
+
+-Reducer(Cashier): it actually carray out state transition depending on store and Action
+                  getState(); // it will return status of state 
+                  dispatch(); it will call action 
+
+
+5000
+-1000
+=4000
+it will create package.json file
+npm init 
+or 
+npm init -y 
+
+install redux 
+npm i redux
+
+*we use redux-toolkit in react project 
+  
+  npm install @reduxjs/toolkit
+
+*we use react-redux library
+    npm i react-redux 
+
+
+
+
+
+
+
 
 
 

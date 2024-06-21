@@ -34,6 +34,7 @@ const LoginComp = () => {
 
                 if(data.length > 0){
                   nav("/maindashboard");
+                  sessionStorage.setItem("user",email)
                 }else{
                     window.alert("wrong crendential inserted");
                 }
